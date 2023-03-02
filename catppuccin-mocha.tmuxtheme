@@ -57,12 +57,12 @@ setw window-status-style "fg=${thm_fg},bg=${thm_bg},none"
 
 # --------=== Statusline
 
-set status-left "#[fg=$thm_black,bg=$thm_peach] #S #[fg=$thm_peach,bg=$thm_bg,nobold,nounderscore,noitalics]"
-set status-right "#[fg=$thm_gray,bg=$thm_bg,nobold,nounderscore,noitalics]#[fg=$thm_maroon,bg=$thm_gray] %Y-%m-%d  %H:%M #[fg=$thm_peach,bg=$thm_gray,nobold,nounderscore,noitalics]#[fg=$thm_black,bg=$thm_peach] #h "
+set status-left "#[fg=$thm_black,bg=$thm_blue] #S #[fg=$thm_blue,bg=$thm_bg,nobold,nounderscore,noitalics]"
+set status-right "#[fg=$thm_gray,bg=$thm_bg,nobold,nounderscore,noitalics]#[fg=$thm_fg,bg=$thm_gray] %Y-%m-%d  %H:%M #[fg=$thm_blue,bg=$thm_gray,nobold,nounderscore,noitalics]#[fg=$thm_black,bg=$thm_blue] #h "
 
 # current_dir
 setw window-status-format "#[fg=$thm_fg,bg=$thm_bg] #I #[fg=$thm_fg,bg=$thm_bg] #W "
-setw window-status-current-format "#[fg=$thm_bg,bg=$thm_gray,nobold,nounderscore,noitalics]#[fg=$thm_maroon,bg=$thm_gray] #I #[fg=$thm_maroon,bg=$thm_gray] #W #[fg=$thm_gray,bg=$thm_bg,nobold,nounderscore,noitalics]"
+setw window-status-current-format "#[fg=$thm_bg,bg=$thm_gray,nobold,nounderscore,noitalics]#[fg=$thm_fg,bg=$thm_gray] #I #[fg=$thm_fg,bg=$thm_gray] #W #[fg=$thm_gray,bg=$thm_bg,nobold,nounderscore,noitalics]"
 
 # parent_dir/current_dir
 # setw window-status-format "#[fg=colour232,bg=colour111] #I #[fg=colour222,bg=colour235] #(echo '#{pane_current_path}' | rev | cut -d'/' -f-2 | rev) "
